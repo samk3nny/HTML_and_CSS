@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Poll - Who will win the League?</title>
+  <meta charset="utf-8">
+  <script src="menu.js"></script>  
+  <script src="objective1.js"></script>
+  <link rel="stylesheet" href="objective1.css">
+</head>
+<body>
+  <!-- The menu will be inserted here -->
+  <nav id="menu">
+  </nav>
+
+<!-- Poll -->
+  <div id="poll_container">
+    <h2>Please enter the following poll:</h2>
+    <h3>Who will win the Premier League in 2014?</h3>
+    
+      <form method="get" id="voteForm">
+      <input type="radio" id="arsenal" name="winner" value="arsenal">
+        <label for="arsenal">Arsenal</label>
+      <br>
+      <input type="radio" id="liverpool" name="winner" value="liverpool">
+        <label for="liverpool">Liverpool</label>
+      <br>        
+      <input type="radio" id="chelsea" name="winner" value="chelsea" checked>
+        <label for="chelsea">Chelsea</label>
+      <br>        
+      <input type="radio" id="man_city" name="winner" value="man_city">
+        <label for="man_city">Manchester City</label>
+      <br>        
+      <input type="radio" id="everton" name="winner" value="everton">
+        <label for="everton">Everton</label>        
+      <br>        
+      <br>
+      <label for="email_address"> Email address:</label>
+      <input type="email" id="email_address" placeholder="firstname.lastname@abc.com">  
+      <br>        
+      <br>
+      <input type="submit" value="Vote" id="voteButton">
+    </form>
+  </div>
+</body>
+</html>  
